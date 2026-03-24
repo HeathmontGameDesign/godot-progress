@@ -47,13 +47,13 @@
           "id": "task06-export-spritesheet",
           "gif": "task06-export-spritesheet.gif",
           "title": "6. Export Spritesheet from Piskel",
-          "description": "Once you have created your pixel art character in Piskel you need to export it as a spritesheet to use in Godot. Important: choose the 'Export' option, then choose 'Spreitesheet file export'"
+          "description": "Once you have created your pixel art character in Piskel you need to export it as a spritesheet to use in Godot. Important: choose the 'Export' option, then choose 'Spritesheet file export'"
         },
         {
           "id":"task07-create-animated-sprite-2d",
           "gif": "task07-create-animated-sprite-2d.gif",
           "title": "7. Create AnimatedSprite2D",
-          "description": "Create an AnimatedSprite2D node for your character and add the spritesheet you exported from Piskel as a SpriteFrames resource."
+          "description": "Create an AnimatedSprite2D node for your character and add the spritesheet you exported from Piskel as a SpriteFrames resource. Be sure to click 'Autorun' on the animation so that it plays when you run the scene. "
         },
         {
           "id": "task08-modify-collision-shape",
@@ -70,8 +70,8 @@
         {
           "id": "task09-create-collectible",
           "gif": "task09-create-collectible.gif",
-          "title": "9. Create Collectible",
-          "description": "Create a collectible item for the player to collect. Create a new Area2D node with a Sprite2D and CollisionShape2D as children. Use a simple circle shape for the collision shape and a simple sprite for the collectible."
+          "title": "9. Create Collectible Area2D Node",
+          "description": "Create a collectible item for the player to collect. Create a new Area2D node with an AnimatedSprite2D and CollisionShape2D as children. Use a simple circle shape for the collision shape and a spritesheet (like the coin image provided) for the collectible."
         }
       ]
     }
