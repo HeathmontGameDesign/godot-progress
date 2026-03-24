@@ -96,6 +96,18 @@
           "gif": "task13-track-score.gif",
           "title": "13. Track Score",
           "description": "Connect the 'coin_collected' signal to the player. Add a score variable to your player script so you can increment the score when the player collects a coin."
+        },
+        {
+          "id": "task14-add-multiple-collectibles",
+          "gif": "task14-add-multiple-collectibles.gif",
+          "title": "14. Add Multiple Collectibles to the level",
+          "description": "Add multiple instances of your collectible to the level. You can do this by duplicating the coin mutliple times and moving them. Organise the collectibles underneath a parent node to keep your scene hierarchy tidy. Test"
+        },
+        {
+          "id": "task15-add-ui-to-display-score",
+          "gif": "task15-add-ui-to-display-score.gif",
+          "title": "15. Add UI to Display Score",
+          "description": "Add a simple UI to the level to display the player's score. Use a CanvasLayer node with a Label as a child. Connect the player's score variable to the Label so that it updates when the player collects coins."
         }
 
       ]
