@@ -59,7 +59,13 @@
           "id": "task08-modify-collision-shape",
           "gif": "task08-modify-collision-shape.gif",
           "title": "8. Modify Collision Shape",
-          "description": "Modify the CollisionShape2D of your character to fit the new sprite"
+          "description": "Modify the CollisionShape2D of your character to fit the new sprite. Adjust the texture processing to 'Nearest' to preserve the pixel art look"
+        },
+        {
+          "id": "task09-add-script-to-character",
+          "gif": "task09-add-script-to-character.gif",
+          "title": "9. Add Script to Character",
+          "description": "Rename the CharacterBody2D as 'Player'. Add a script to your character to give it some basic movement. Use the provided default script template to get started"
         }
       ]
     },
@@ -68,9 +74,9 @@
       "title": "Chapter 3 — Adding Collectibles",
       "tasks": [
         {
-          "id": "task09-create-collectible",
-          "gif": "task09-create-collectible.gif",
-          "title": "9. Create Collectible Area2D Node",
+          "id": "task10-create-collectible",
+          "gif": "task10-create-collectible.gif",
+          "title": "10. Create Collectible Area2D Node",
           "description": "Create a collectible item for the player to collect. Create a new Area2D node with an AnimatedSprite2D and CollisionShape2D as children. Use a simple circle shape for the collision shape and a spritesheet (like the coin image provided) for the collectible."
         }
       ]
