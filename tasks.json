@@ -40,7 +40,7 @@
       ]
     },
     {
-      "id": "physics",
+      "id": "character",
       "title": "Chapter 2 — Creating a Character",
       "tasks": [
         {
@@ -60,6 +60,18 @@
           "gif": "task08-modify-collision-shape.gif",
           "title": "8. Modify Collision Shape",
           "description": "Modify the CollisionShape2D of your character to fit the new sprite"
+        }
+      ]
+    },
+    {
+      "id": "collectibles",
+      "title": "Chapter 3 — Adding Collectibles",
+      "tasks": [
+        {
+          "id": "task09-create-collectible",
+          "gif": "task09-create-collectible.gif",
+          "title": "9. Create Collectible",
+          "description": "Create a collectible item for the player to collect. Create a new Area2D node with a Sprite2D and CollisionShape2D as children. Use a simple circle shape for the collision shape and a simple sprite for the collectible."
         }
       ]
     }
