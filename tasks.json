@@ -78,6 +78,12 @@
           "gif": "task10-create-collectible.gif",
           "title": "10. Create Collectible Area2D Node",
           "description": "Create a collectible item for the player to collect. Create a new Area2D node with an AnimatedSprite2D and CollisionShape2D as children. Use a simple circle shape for the collision shape and a spritesheet (like the coin image provided) for the collectible."
+        },
+        {
+          "id": "task11-save-collectible-as-scene",
+          "gif": "task11-save-collectible-as-scene.gif",
+          "title": "11. Save Collectible as Scene",
+          "description": "Save your collectible as a separate scene so that you can easily reuse it throughout your level."
         }
       ]
     }
