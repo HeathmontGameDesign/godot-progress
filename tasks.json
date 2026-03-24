@@ -9,31 +9,31 @@
         {
           "id": "task01-add-tilemaplayer-node",
           "gif": "task01-add-tilemaplayer-node.gif",
-          "title": "Add TileMapLayer",
+          "title": "1. Add TileMapLayer",
           "description": "Getting started by adding a 2D Scene root node and a TileMapLayer node to create the level. Call the root node 'Level1' and the TileMapLayer 'Ground'"
         },
         {
           "id": "task02-add-a-tileset",
           "gif": "task02-add-a-tileset.gif",
-          "title": "Add a Tileset",
+          "title": "2. Add a Tileset",
           "description": "Add a Tileset resource for the TileMapLayer. Note: you first need to have downloaded your tileset image."
         },
         {
           "id": "task03-add-physics-to-tileset",
           "gif": "task03-add-physics-to-tileset.gif",
-          "title": "Add Physics to Tileset",
+          "title": "3. Add Physics to Tileset",
           "description": "Add collision properties to the Tileset so that players don't fall through your blocks"
         },
         {
           "id": "task04-painting-the-level",
           "gif": "task04-painting-the-level.gif",
-          "title": "Painting the Level",
+          "title": "4. Painting the Level",
           "description": "Using the TileMapLayer's painting tools to create a level."
         },
         {
           "id": "task05-adding-a-test-character",
           "gif": "task05-adding-a-test-character.gif",
-          "title": "Adding a Test Character",
+          "title": "5. Adding a Test Character",
           "description": "Adding a simple test character to the level to test out the collision properties"
         }
 
@@ -46,19 +46,19 @@
         {
           "id": "task06-export-spritesheet",
           "gif": "task06-export-spritesheet.gif",
-          "title": "Export Spritesheet from Piskel",
+          "title": "6. Export Spritesheet from Piskel",
           "description": "Once you have created your pixel art character in Piskel you need to export it as a spritesheet to use in Godot. Important: choose the 'Export' option, then choose 'Spreitesheet file export'"
         },
         {
           "id":"task07-create-animated-sprite-2d",
           "gif": "task07-create-animated-sprite-2d.gif",
-          "title": "Create AnimatedSprite2D",
+          "title": "7. Create AnimatedSprite2D",
           "description": "Create an AnimatedSprite2D node for your character and add the spritesheet you exported from Piskel as a SpriteFrames resource."
         },
         {
           "id": "task08-modify-collision-shape",
           "gif": "task08-modify-collision-shape.gif",
-          "title": "Modify Collision Shape",
+          "title": "8. Modify Collision Shape",
           "description": "Modify the CollisionShape2D of your character to fit the new sprite"
         }
       ]
