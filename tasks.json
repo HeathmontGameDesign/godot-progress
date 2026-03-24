@@ -84,7 +84,20 @@
           "gif": "task11-save-collectible-as-scene.gif",
           "title": "11. Save Collectible as Scene",
           "description": "Save your collectible as a separate scene so that you can easily reuse it throughout your level."
+        },
+        {
+          "id": "task12-add-script-to-collectible",
+          "gif": "task12-add-script-to-collectible.gif",
+          "title": "12. Add Script to Collectible",
+          "description": "Add a script to your collectible to make it disappear when the player collects it and emit the 'coin_collected' signal. (See coin.gd code for reference). Add the player to the 'player' group."
+        },
+        {
+          "id": "task-13-track-score",
+          "gif": "task13-track-score.gif",
+          "title": "13. Track Score",
+          "description": "Connect the 'coin_collected' signal to the player. Add a score variable to your player script so you can increment the score when the player collects a coin."
         }
+
       ]
     }
   ]
