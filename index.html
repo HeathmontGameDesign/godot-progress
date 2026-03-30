@@ -221,6 +221,7 @@
     <a href="#basics">Chapter 1 — Creating the Level</a>
 <a href="#character">Chapter 2 — Creating a Character</a>
 <a href="#collectibles">Chapter 3 — Adding Collectibles</a>
+<a href="#additional-features">Chapter 4 — Additional Features</a>
   </nav>
 
   <main>
@@ -332,7 +333,7 @@
           <div class="task-media"><img src="gifs/task14-add-multiple-collectibles.gif" alt="14. Add Multiple Collectibles to the level" loading="lazy"></div>
           <div class="task-info">
             <h3>14. Add Multiple Collectibles to the level</h3>
-            <p>Add multiple instances of your collectible to the level. You can do this by duplicating the coin mutliple times and moving them. Organise the collectibles underneath a parent node to keep your scene hierarchy tidy. Test</p>
+            <p>Add multiple instances of your collectible to the level. You can do this by duplicating the coin mutliple times and moving them. Organise the collectibles underneath a parent node to keep your scene hierarchy tidy. Then test your game, checking that the score increments each time you collect a coin.</p>
           </div>
         </article>
         <article class="task-card pending" id="task15-add-ui-to-display-score">
@@ -344,9 +345,35 @@
         </article>
         </div>
       </section>
+      <section class="chapter" id="additional-features">
+        <h2>Chapter 4 — Additional Features</h2>
+        <div class="task-grid">
+        <article class="task-card done" id="task16-add-camera">
+          <div class="task-media"><img src="gifs/task16-add-camera.gif" alt="16. Add Camera" loading="lazy"></div>
+          <div class="task-info">
+            <h3>16. Add Camera</h3>
+            <p>Add a camera to follow your player around the level. You can do this by adding a Camera2D node as a child of your player and enabling the 'Current' property on the camera.</p>
+          </div>
+        </article>
+        <article class="task-card pending" id="task17-add-enemy">
+          <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
+          <div class="task-info">
+            <h3>17. Add an Enemy</h3>
+            <p>Create a simple enemy for the player to avoid. You can create a new scene for your enemy with a Sprite2D and CollisionShape2D. Add a script to make the enemy move back and forth. If the player collides with the enemy, reset the player's position to the start of the level.</p>
+          </div>
+        </article>
+        <article class="task-card pending" id="task18-add-a-new-level">
+          <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
+          <div class="task-info">
+            <h3>18. Add a New Level</h3>
+            <p>Create a new level for your player to progress to after collecting all the coins in the first level. You can create a new scene for your second level and then load that scene when the player collects all the coins in the first level.</p>
+          </div>
+        </article>
+        </div>
+      </section>
   </main>
 
-  <footer>Built 26 Mar 2026, 14:53 · <a href="tasks.json" style="color:inherit">tasks.json</a></footer>
+  <footer>Built 31 Mar 2026, 10:22 · <a href="tasks.json" style="color:inherit">tasks.json</a></footer>
 
   <!-- Lightbox modal -->
   <div class="modal-backdrop" id="modal-backdrop">

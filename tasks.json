@@ -101,7 +101,7 @@
           "id": "task14-add-multiple-collectibles",
           "gif": "task14-add-multiple-collectibles.gif",
           "title": "14. Add Multiple Collectibles to the level",
-          "description": "Add multiple instances of your collectible to the level. You can do this by duplicating the coin mutliple times and moving them. Organise the collectibles underneath a parent node to keep your scene hierarchy tidy. Test"
+          "description": "Add multiple instances of your collectible to the level. You can do this by duplicating the coin mutliple times and moving them. Organise the collectibles underneath a parent node to keep your scene hierarchy tidy. Then test your game, checking that the score increments each time you collect a coin."
         },
         {
           "id": "task15-add-ui-to-display-score",
@@ -110,6 +110,30 @@
           "description": "Add a simple UI to the level to display the player's score. Use a CanvasLayer node with a Label as a child. Connect the player's score variable to the Label so that it updates when the player collects coins."
         }
 
+      ]
+    },
+    {
+      "id": "additional-features",
+      "title": "Chapter 4 — Additional Features",
+      "tasks": [
+        {
+          "id": "task16-add-camera",
+          "gif": "task16-add-camera.gif",
+          "title": "16. Add Camera",
+          "description": "Add a camera to follow your player around the level. You can do this by adding a Camera2D node as a child of your player and enabling the 'Current' property on the camera."
+        },
+        {
+          "id": "task17-add-enemy",
+          "gif": "task17-add-enemy.gif",
+          "title": "17. Add an Enemy",
+          "description": "Create a simple enemy for the player to avoid. You can create a new scene for your enemy with a Sprite2D and CollisionShape2D. Add a script to make the enemy move back and forth. If the player collides with the enemy, reset the player's position to the start of the level."
+        },
+        {
+          "id": "task18-add-a-new-level",
+          "gif": "task18-add-a-new-level.gif",
+          "title": "18. Add a New Level",
+          "description": "Create a new level for your player to progress to after collecting all the coins in the first level. You can create a new scene for your second level and then load that scene when the player collects all the coins in the first level."
+        }
       ]
     }
   ]
