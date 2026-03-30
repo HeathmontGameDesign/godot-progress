@@ -336,8 +336,8 @@
             <p>Add multiple instances of your collectible to the level. You can do this by duplicating the coin mutliple times and moving them. Organise the collectibles underneath a parent node to keep your scene hierarchy tidy. Then test your game, checking that the score increments each time you collect a coin.</p>
           </div>
         </article>
-        <article class="task-card pending" id="task15-add-ui-to-display-score">
-          <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
+        <article class="task-card done" id="task15-add-ui-to-display-score">
+          <div class="task-media"><img src="gifs/task15-add-ui-to-display-score.gif" alt="15. Add UI to Display Score" loading="lazy"></div>
           <div class="task-info">
             <h3>15. Add UI to Display Score</h3>
             <p>Add a simple UI to the level to display the player's score. Use a CanvasLayer node with a Label as a child. Connect the player's score variable to the Label so that it updates when the player collects coins.</p>
@@ -355,17 +355,24 @@
             <p>Add a camera to follow your player around the level. You can do this by adding a Camera2D node as a child of your player and enabling the 'Current' property on the camera.</p>
           </div>
         </article>
-        <article class="task-card pending" id="task17-add-enemy">
+        <article class="task-card pending" id="task17-add-background">
+          <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
+          <div class="task-info">
+            <h3>17. Add Background</h3>
+            <p>Add a background to your level to make it look nicer. You can do this by creating a Parallax2D node with a Sprite2D child with a looping background image. Set the Parallax2D's scroll scale to something less than 1 (like 0.5) to create a parallax effect where the background moves slower than the foreground as the player moves around the level.</p>
+          </div>
+        </article>
+        <article class="task-card pending" id="task18-add-enemy">
           <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
           <div class="task-info">
             <h3>17. Add an Enemy</h3>
             <p>Create a simple enemy for the player to avoid. You can create a new scene for your enemy with a Sprite2D and CollisionShape2D. Add a script to make the enemy move back and forth. If the player collides with the enemy, reset the player's position to the start of the level.</p>
           </div>
         </article>
-        <article class="task-card pending" id="task18-add-a-new-level">
+        <article class="task-card pending" id="task19-add-a-new-level">
           <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
           <div class="task-info">
-            <h3>18. Add a New Level</h3>
+            <h3>19. Add a New Level</h3>
             <p>Create a new level for your player to progress to after collecting all the coins in the first level. You can create a new scene for your second level and then load that scene when the player collects all the coins in the first level.</p>
           </div>
         </article>
@@ -373,7 +380,7 @@
       </section>
   </main>
 
-  <footer>Built 31 Mar 2026, 10:22 · <a href="tasks.json" style="color:inherit">tasks.json</a></footer>
+  <footer>Built 31 Mar 2026, 10:50 · <a href="tasks.json" style="color:inherit">tasks.json</a></footer>
 
   <!-- Lightbox modal -->
   <div class="modal-backdrop" id="modal-backdrop">
