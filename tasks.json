@@ -126,12 +126,12 @@
           "id": "task17-add-background",
           "gif": "task17-add-background.gif",
           "title": "17. Add Background",
-          "description": "Add a background to your level to make it look nicer. You can do this by creating a Parallax2D node with a Sprite2D child with a looping background image. Set the Parallax2D's scroll scale to something less than 1 (like 0.5) to create a parallax effect where the background moves slower than the foreground as the player moves around the level."        
+          "description": "Add a background to your level to make it look nicer. You can do this by creating a Parallax2D node with a Sprite2D child with a looping background image. Set the Parallax2D's scroll scale to something less than 1 (like 0.5) to create a parallax effect where the background moves slower than the foreground as the player moves around the level. Note - it will only look work if you are using a camera."        
         },
         {
           "id": "task18-add-enemy",
           "gif": "task18-add-enemy.gif",
-          "title": "17. Add an Enemy",
+          "title": "18. Add an Enemy",
           "description": "Create a simple enemy for the player to avoid. You can create a new scene for your enemy with a Sprite2D and CollisionShape2D. Add a script to make the enemy move back and forth. If the player collides with the enemy, reset the player's position to the start of the level."
         },
         {
