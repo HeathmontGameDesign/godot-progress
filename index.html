@@ -362,25 +362,25 @@
             <p>Add a background to your level to make it look nicer. You can do this by creating a Parallax2D node with a Sprite2D child with a looping background image. Set the Parallax2D's scroll scale to something less than 1 (like 0.5) to create a parallax effect where the background moves slower than the foreground as the player moves around the level. Note - it will only look work if you are using a camera.</p>
           </div>
         </article>
-        <article class="task-card pending" id="task18-add-enemy">
-          <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
+        <article class="task-card done" id="task18-add-hazard">
+          <div class="task-media"><img src="gifs/task18-add-hazard.gif" alt="18. Add a Hazard" loading="lazy"></div>
           <div class="task-info">
-            <h3>18. Add an Enemy</h3>
-            <p>Create a simple enemy for the player to avoid. You can create a new scene for your enemy with a Sprite2D and CollisionShape2D. Add a script to make the enemy move back and forth. If the player collides with the enemy, reset the player's position to the start of the level.</p>
+            <h3>18. Add a Hazard</h3>
+            <p>Create a hazard for the player to avoid. Create the hazard as an Area2D node with a sprite or animated sprite 2D and a collision shape (not shown). Create a die() function in the player script that resets the player's position to the start of the level and resets the score. Connect the player's die() function to a new hazard object (like a spike) using an Area2D node and the 'body_entered' signal.</p>
           </div>
         </article>
         <article class="task-card pending" id="task19-add-a-new-level">
           <div class="task-media"><div class="placeholder"><span>🎮 Not recorded yet</span></div></div>
           <div class="task-info">
             <h3>19. Add a New Level</h3>
-            <p>Create a new level for your player to progress to after collecting all the coins in the first level. You can create a new scene for your second level and then load that scene when the player collects all the coins in the first level.</p>
+            <p>Create a new level for your player to progress to reaching a goal. Duplicate your existing level and modify the new one. Add an Area2D node with a collision shape to the end of level 1 to serve as a goal. Connect the 'body_entered' signal of the Area2D to a function that changes the scene to your new level when the player reaches the goal.</p>
           </div>
         </article>
         </div>
       </section>
   </main>
 
-  <footer>Built 31 Mar 2026, 11:07 · <a href="tasks.json" style="color:inherit">tasks.json</a></footer>
+  <footer>Built 21 Apr 2026, 11:13 · <a href="tasks.json" style="color:inherit">tasks.json</a></footer>
 
   <!-- Lightbox modal -->
   <div class="modal-backdrop" id="modal-backdrop">
